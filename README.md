@@ -83,45 +83,7 @@ streamlit run app.py
    - Read the comprehensive decision plan
    - Simulate customer responses to price changes
 
-## System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     SHARED DATA LAYER                       │
-│  (Inventory Records, Sales History, Supplier Information)   │
-└───────────────────────────┬─────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│                       AGENT LAYER                           │
-│                                                             │
-│  ┌───────────────┐      ┌───────────────┐      ┌───────────┐│
-│  │    Demand     │◄────►│   Inventory   │◄────►│  Pricing  ││
-│  │  Forecasting  │      │   Monitoring  │      │   Agent   ││
-│  │     Agent     │      │     Agent     │      │           ││
-│  └───────┬───────┘      └───────┬───────┘      └─────┬─────┘│
-│          │                      │                    │      │
-│          │                      ▼                    │      │
-│          │        ┌───────────────────────┐          │      │
-│          └───────►│      Decision         │◄─────────┘      │
-│                   │       Agent           │                 │
-│                   └───────────┬───────────┘                 │
-│                               │                             │
-│                               ▼                             │
-│                   ┌───────────────────────┐                 │
-│                   │      Customer         │                 │
-│                   │     Simulation        │                 │
-│                   │       Agent           │                 │
-│                   └───────────────────────┘                 │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    USER INTERFACE LAYER                     │
-│      (Dashboards, Alerts, Recommendations, Controls)        │
-└─────────────────────────────────────────────────────────────┘
-```
 
 ## Testing
 
@@ -141,12 +103,3 @@ The system has been optimized for speed and efficiency:
 - Added parallel processing for model training
 - Optimized database queries to only fetch required columns
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- XGBoost team for their gradient boosting framework
-- Streamlit team for their interactive web application framework
-- Pandas and NumPy teams for their data processing libraries
