@@ -1,8 +1,8 @@
-# RetailSync: Multi-Agent AI System for Intelligent Inventory Optimization
+# Spasht: Multi-Agent AI System for Intelligent Inventory Optimization
 
 ## Overview
 
-RetailSync is a multi-agent AI system designed to optimize retail inventory management through coordinated decision-making. The system predicts demand, monitors inventory levels, optimizes pricing, and generates strategic recommendations to help retail businesses maintain optimal inventory levels, avoid stockouts, and maximize profits.
+Spasht is a multi-agent AI system designed to optimize retail inventory management through coordinated decision-making. The system predicts demand, monitors inventory levels, optimizes pricing, and generates strategic recommendations to help retail businesses maintain optimal inventory levels, avoid stockouts, and maximize profits.
 
 ## Problem Statement
 
@@ -15,8 +15,7 @@ Retail businesses face significant challenges in inventory management:
 - **Limited Data Utilization**: Underutilization of available data for strategic decisions
 
 ## Solution Architecture
-
-RetailSync addresses these challenges through a coordinated multi-agent AI system:
+Spahst addresses these challenges through a coordinated multi-agent AI system:
 
 ### Multi-Agent Architecture
 
